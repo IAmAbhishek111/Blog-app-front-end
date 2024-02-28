@@ -2,6 +2,7 @@
 
 .card {
     background-color: var(--secondary-color);
+    width: 1200px;
 }
 
 input[type="text"],
