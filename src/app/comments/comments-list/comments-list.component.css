@@ -1,28 +1,37 @@
- .comment-box{
+.comment-box {
     padding: 15px 35px;
     background-color: #f0f0f0;
-    
- }
- 
- .comment-box a {
-        text-decoration: none;
-        padding: 8px 15px;
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s;
-        display: inline-block;
-    }
+    display: flex;
+}
 
-    .comment-box a:hover {
-        background-color: #007bff;
-        color: #fff;
-    }
+.profile-picture {
+    margin-right: 15px;
+    color: #007bff; /* Set the color of the user icon */
+}
 
-    .comment-box a.reply {
-        background-color: #28a745;
-        color: #fff;
-    }
+.comment-details {
+    flex-grow: 1;
+}
 
-    .comment-box a.view-reply {
-        background-color: #ffc107;
-        color: #333;
-    }
+.comment-box a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+.comment-box a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.comment-box a.reply {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.comment-box a.view-reply {
+    background-color: #ffc107;
+    color: #333;
+}
