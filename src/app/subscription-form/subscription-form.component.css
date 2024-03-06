@@ -5,22 +5,13 @@
     width: 1200px;
 }
 
+
 input[type="text"],
 input[type="email"] {
-    height: 60px;
-    padding-left: 20px;
-    font-size: 13px;
+    
     width: 100%;
 }
 
-.btn-sub {
-    height: 58px;
-    border: none;
-    font-size: 13px;
-    background-color: #026467; /* Set the primary color */
-    color: #ffffff; /* Set text color to white */
-    transition: background-color 0.3s ease; /* Add transition for smooth color change */
-}
 
 .subs-text{
     width: 500px;
