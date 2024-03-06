@@ -47,6 +47,10 @@ input[type="email"] {
   width: 100%;
 }
 
+
+.text-theme-primary {
+  color: var(--primary-color);
+}
 .btn-theme {
   height: 58px;
   border: none;
